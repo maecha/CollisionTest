@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E6443E15CE0F8700CE792B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6443D15CE0F8700CE792B /* UIKit.framework */; };
+		E0E6444015CE0F8700CE792B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6443F15CE0F8700CE792B /* Foundation.framework */; };
+		E0E6444215CE0F8700CE792B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6444115CE0F8700CE792B /* CoreGraphics.framework */; };
+		E0E6444815CE0F8700CE792B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E6444615CE0F8700CE792B /* InfoPlist.strings */; };
+		E0E6444A15CE0F8700CE792B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6444915CE0F8700CE792B /* main.m */; };
+		E0E6444E15CE0F8700CE792B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6444D15CE0F8700CE792B /* AppDelegate.m */; };
+		E0E6445115CE0F8700CE792B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6445015CE0F8700CE792B /* ViewController.m */; };
+		E0E6445415CE0F8700CE792B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E6445215CE0F8700CE792B /* ViewController.xib */; };
+		E0E6445C15CE0F8800CE792B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6445B15CE0F8800CE792B /* SenTestingKit.framework */; };
+		E0E6445D15CE0F8800CE792B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6443D15CE0F8700CE792B /* UIKit.framework */; };
+		E0E6445E15CE0F8800CE792B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6443F15CE0F8700CE792B /* Foundation.framework */; };
+		E0E6446615CE0F8800CE792B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E6446415CE0F8800CE792B /* InfoPlist.strings */; };
+		E0E6446915CE0F8800CE792B /* CollisionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6446815CE0F8800CE792B /* CollisionTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E6445F15CE0F8800CE792B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E6443015CE0F8700CE792B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E6443815CE0F8700CE792B;
+			remoteInfo = CollisionTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E6443915CE0F8700CE792B /* CollisionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollisionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E6443D15CE0F8700CE792B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0E6443F15CE0F8700CE792B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0E6444115CE0F8700CE792B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0E6444515CE0F8700CE792B /* CollisionTest-Info.plist */ = {isa = PBXFileReference; path = "CollisionTest-Info.plist"; sourceTree = "<group>"; };
+		E0E6444715CE0F8700CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0E6444915CE0F8700CE792B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E6444B15CE0F8700CE792B /* CollisionTest-Prefix.pch */ = {isa = PBXFileReference; path = "CollisionTest-Prefix.pch"; sourceTree = "<group>"; };
+		E0E6444C15CE0F8700CE792B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E6444D15CE0F8700CE792B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E6444F15CE0F8700CE792B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0E6445015CE0F8700CE792B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E6445315CE0F8700CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0E6445A15CE0F8700CE792B /* CollisionTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E6445B15CE0F8800CE792B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0E6446315CE0F8800CE792B /* CollisionTestTests-Info.plist */ = {isa = PBXFileReference; path = "CollisionTestTests-Info.plist"; sourceTree = "<group>"; };
+		E0E6446515CE0F8800CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0E6446715CE0F8800CE792B /* CollisionTestTests.h */ = {isa = PBXFileReference; path = CollisionTestTests.h; sourceTree = "<group>"; };
+		E0E6446815CE0F8800CE792B /* CollisionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollisionTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E6443615CE0F8700CE792B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6443E15CE0F8700CE792B /* UIKit.framework in Frameworks */,
+				E0E6444015CE0F8700CE792B /* Foundation.framework in Frameworks */,
+				E0E6444215CE0F8700CE792B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E6445615CE0F8700CE792B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6445C15CE0F8800CE792B /* SenTestingKit.framework in Frameworks */,
+				E0E6445D15CE0F8800CE792B /* UIKit.framework in Frameworks */,
+				E0E6445E15CE0F8800CE792B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E6442E15CE0F8700CE792B = {
+			isa = PBXGroup;
+			children = (
+				E0E6444315CE0F8700CE792B /* CollisionTest */,
+				E0E6446115CE0F8800CE792B /* CollisionTestTests */,
+				E0E6443C15CE0F8700CE792B /* Frameworks */,
+				E0E6443A15CE0F8700CE792B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E6443A15CE0F8700CE792B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6443915CE0F8700CE792B /* CollisionTest.app */,
+				E0E6445A15CE0F8700CE792B /* CollisionTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E6443C15CE0F8700CE792B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6443D15CE0F8700CE792B /* UIKit.framework */,
+				E0E6443F15CE0F8700CE792B /* Foundation.framework */,
+				E0E6444115CE0F8700CE792B /* CoreGraphics.framework */,
+				E0E6445B15CE0F8800CE792B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E6444315CE0F8700CE792B /* CollisionTest */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6444C15CE0F8700CE792B /* AppDelegate.h */,
+				E0E6444D15CE0F8700CE792B /* AppDelegate.m */,
+				E0E6444F15CE0F8700CE792B /* ViewController.h */,
+				E0E6445015CE0F8700CE792B /* ViewController.m */,
+				E0E6445215CE0F8700CE792B /* ViewController.xib */,
+				E0E6444415CE0F8700CE792B /* Supporting Files */,
+			);
+			path = CollisionTest;
+			sourceTree = "<group>";
+		};
+		E0E6444415CE0F8700CE792B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6444515CE0F8700CE792B /* CollisionTest-Info.plist */,
+				E0E6444615CE0F8700CE792B /* InfoPlist.strings */,
+				E0E6444915CE0F8700CE792B /* main.m */,
+				E0E6444B15CE0F8700CE792B /* CollisionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E6446115CE0F8800CE792B /* CollisionTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6446715CE0F8800CE792B /* CollisionTestTests.h */,
+				E0E6446815CE0F8800CE792B /* CollisionTestTests.m */,
+				E0E6446215CE0F8800CE792B /* Supporting Files */,
+			);
+			path = CollisionTestTests;
+			sourceTree = "<group>";
+		};
+		E0E6446215CE0F8800CE792B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6446315CE0F8800CE792B /* CollisionTestTests-Info.plist */,
+				E0E6446415CE0F8800CE792B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E6443815CE0F8700CE792B /* CollisionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E6446C15CE0F8800CE792B /* Build configuration list for PBXNativeTarget "CollisionTest" */;
+			buildPhases = (
+				E0E6443515CE0F8700CE792B /* Sources */,
+				E0E6443615CE0F8700CE792B /* Frameworks */,
+				E0E6443715CE0F8700CE792B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollisionTest;
+			productName = CollisionTest;
+			productReference = E0E6443915CE0F8700CE792B /* CollisionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E6445915CE0F8700CE792B /* CollisionTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E6446F15CE0F8800CE792B /* Build configuration list for PBXNativeTarget "CollisionTestTests" */;
+			buildPhases = (
+				E0E6445515CE0F8700CE792B /* Sources */,
+				E0E6445615CE0F8700CE792B /* Frameworks */,
+				E0E6445715CE0F8700CE792B /* Resources */,
+				E0E6445815CE0F8700CE792B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E6446015CE0F8800CE792B /* PBXTargetDependency */,
+			);
+			name = CollisionTestTests;
+			productName = CollisionTestTests;
+			productReference = E0E6445A15CE0F8700CE792B /* CollisionTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E6443015CE0F8700CE792B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E0E6443315CE0F8700CE792B /* Build configuration list for PBXProject "CollisionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0E6442E15CE0F8700CE792B;
+			productRefGroup = E0E6443A15CE0F8700CE792B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E6443815CE0F8700CE792B /* CollisionTest */,
+				E0E6445915CE0F8700CE792B /* CollisionTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E6443715CE0F8700CE792B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6444815CE0F8700CE792B /* InfoPlist.strings in Resources */,
+				E0E6445415CE0F8700CE792B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E6445715CE0F8700CE792B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6446615CE0F8800CE792B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0E6445815CE0F8700CE792B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E6443515CE0F8700CE792B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6444A15CE0F8700CE792B /* main.m in Sources */,
+				E0E6444E15CE0F8700CE792B /* AppDelegate.m in Sources */,
+				E0E6445115CE0F8700CE792B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E6445515CE0F8700CE792B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E6446915CE0F8800CE792B /* CollisionTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E6446015CE0F8800CE792B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E6443815CE0F8700CE792B /* CollisionTest */;
+			targetProxy = E0E6445F15CE0F8800CE792B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E6444615CE0F8700CE792B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E6444715CE0F8700CE792B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0E6445215CE0F8700CE792B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E6445315CE0F8700CE792B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E0E6446415CE0F8800CE792B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E6446515CE0F8800CE792B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E6446A15CE0F8800CE792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E6446B15CE0F8800CE792B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E6446D15CE0F8800CE792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollisionTest/CollisionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollisionTest/CollisionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0E6446E15CE0F8800CE792B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollisionTest/CollisionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollisionTest/CollisionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E0E6447015CE0F8800CE792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollisionTest.app/CollisionTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollisionTest/CollisionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollisionTestTests/CollisionTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E0E6447115CE0F8800CE792B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollisionTest.app/CollisionTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollisionTest/CollisionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollisionTestTests/CollisionTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E6443315CE0F8700CE792B /* Build configuration list for PBXProject "CollisionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E6446A15CE0F8800CE792B /* Debug */,
+				E0E6446B15CE0F8800CE792B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E6446C15CE0F8800CE792B /* Build configuration list for PBXNativeTarget "CollisionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E6446D15CE0F8800CE792B /* Debug */,
+				E0E6446E15CE0F8800CE792B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0E6446F15CE0F8800CE792B /* Build configuration list for PBXNativeTarget "CollisionTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E6447015CE0F8800CE792B /* Debug */,
+				E0E6447115CE0F8800CE792B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E6443015CE0F8700CE792B /* Project object */;
+}
