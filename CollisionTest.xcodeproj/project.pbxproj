@@ -20,6 +20,10 @@
 		E0E6445E15CE0F8800CE792B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6443F15CE0F8700CE792B /* Foundation.framework */; };
 		E0E6446615CE0F8800CE792B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E6446415CE0F8800CE792B /* InfoPlist.strings */; };
 		E0E6446915CE0F8800CE792B /* CollisionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6446815CE0F8800CE792B /* CollisionTestTests.m */; };
+		E0E6447B15CE286000CE792B /* xbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E6447A15CE286000CE792B /* xbox.png */; };
+		E0E6447C15CE286000CE792B /* xbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E6447A15CE286000CE792B /* xbox.png */; };
+		E0E6447F15CE29D900CE792B /* ImageDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6447E15CE29D900CE792B /* ImageDragView.m */; };
+		E0E6448015CE29D900CE792B /* ImageDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E6447E15CE29D900CE792B /* ImageDragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +41,24 @@
 		E0E6443D15CE0F8700CE792B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0E6443F15CE0F8700CE792B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0E6444115CE0F8700CE792B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0E6444515CE0F8700CE792B /* CollisionTest-Info.plist */ = {isa = PBXFileReference; path = "CollisionTest-Info.plist"; sourceTree = "<group>"; };
+		E0E6444515CE0F8700CE792B /* CollisionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollisionTest-Info.plist"; sourceTree = "<group>"; };
 		E0E6444715CE0F8700CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0E6444915CE0F8700CE792B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0E6444B15CE0F8700CE792B /* CollisionTest-Prefix.pch */ = {isa = PBXFileReference; path = "CollisionTest-Prefix.pch"; sourceTree = "<group>"; };
-		E0E6444C15CE0F8700CE792B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E6444B15CE0F8700CE792B /* CollisionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollisionTest-Prefix.pch"; sourceTree = "<group>"; };
+		E0E6444C15CE0F8700CE792B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0E6444D15CE0F8700CE792B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0E6444F15CE0F8700CE792B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0E6444F15CE0F8700CE792B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0E6445015CE0F8700CE792B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0E6445315CE0F8700CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E0E6445A15CE0F8700CE792B /* CollisionTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E6445B15CE0F8800CE792B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E0E6446315CE0F8800CE792B /* CollisionTestTests-Info.plist */ = {isa = PBXFileReference; path = "CollisionTestTests-Info.plist"; sourceTree = "<group>"; };
+		E0E6446315CE0F8800CE792B /* CollisionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollisionTestTests-Info.plist"; sourceTree = "<group>"; };
 		E0E6446515CE0F8800CE792B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0E6446715CE0F8800CE792B /* CollisionTestTests.h */ = {isa = PBXFileReference; path = CollisionTestTests.h; sourceTree = "<group>"; };
+		E0E6446715CE0F8800CE792B /* CollisionTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollisionTestTests.h; sourceTree = "<group>"; };
 		E0E6446815CE0F8800CE792B /* CollisionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollisionTestTests.m; sourceTree = "<group>"; };
+		E0E6447A15CE286000CE792B /* xbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbox.png; sourceTree = "<group>"; };
+		E0E6447D15CE29D900CE792B /* ImageDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDragView.h; sourceTree = "<group>"; };
+		E0E6447E15CE29D900CE792B /* ImageDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +123,9 @@
 				E0E6444F15CE0F8700CE792B /* ViewController.h */,
 				E0E6445015CE0F8700CE792B /* ViewController.m */,
 				E0E6445215CE0F8700CE792B /* ViewController.xib */,
+				E0E6447D15CE29D900CE792B /* ImageDragView.h */,
+				E0E6447E15CE29D900CE792B /* ImageDragView.m */,
+				E0E6447A15CE286000CE792B /* xbox.png */,
 				E0E6444415CE0F8700CE792B /* Supporting Files */,
 			);
 			path = CollisionTest;
@@ -223,6 +233,7 @@
 			files = (
 				E0E6444815CE0F8700CE792B /* InfoPlist.strings in Resources */,
 				E0E6445415CE0F8700CE792B /* ViewController.xib in Resources */,
+				E0E6447B15CE286000CE792B /* xbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E6446615CE0F8800CE792B /* InfoPlist.strings in Resources */,
+				E0E6447C15CE286000CE792B /* xbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +272,7 @@
 				E0E6444A15CE0F8700CE792B /* main.m in Sources */,
 				E0E6444E15CE0F8700CE792B /* AppDelegate.m in Sources */,
 				E0E6445115CE0F8700CE792B /* ViewController.m in Sources */,
+				E0E6447F15CE29D900CE792B /* ImageDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E6446915CE0F8800CE792B /* CollisionTestTests.m in Sources */,
+				E0E6448015CE29D900CE792B /* ImageDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

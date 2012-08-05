@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageDragView.h
 //  CollisionTest
 //
 //  Created by 誠也 前田 on 12/08/05.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
-    UIView *_viewA;
+@interface ImageDragView : UIImageView{
+    CGPoint touchBeganPoint;
 }
 
 @end
